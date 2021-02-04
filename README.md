@@ -12,6 +12,14 @@ Keep in mind, we use different formula if the image has equivalent or inequivale
 
 I show you an exemple of what we can expect.
 
-I took an ARPES image
-[My image](username.github.com/repository/img/image.jpg)
+I took an ARPES image 
+[Original image ](https://github.com/b5419/tracking-maxima/blob/main/original_img.png)
+That what a obtained with the best amplitude
+[Image_treated](https://github.com/b5419/tracking-maxima/blob/main/img_treated.png)
+
+We could applied a filter on the image to reduce the nose.  
+I applied an Savitzky-golay filter, (you will find the filter on savitzky-golay.py file), and the apply the tracking maxima program.
+The image obtain is the following:  
+[Image_treated_filtered](https://github.com/b5419/tracking-maxima/blob/main/img_treated_filtered.png)  
+
 
