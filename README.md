@@ -22,7 +22,7 @@ That what a obtained with the best amplitude
   
 We could applied a filter on the image to reduce the nose.  
 I applied an Savitzky-golay filter, (you will find the filter on savitzky-golay.py file), and the apply the tracking maxima program.
-The image obtain is the following: [Image_treated_filtered](https://github.com/b5419/tracking-maxima/blob/main/img_treated_filtered.png) 
+The image obtain is the following: [Image_treated_filtered](https://github.com/b5419/tracking-maxima/blob/main/img_treated_filtered.png)   
 <img src="./img_treated_filtered.png">    
 
 
