@@ -15,7 +15,7 @@ I show you an exemple of what we can expect.
 I took an ARPES image  
 <img src="./original_img.png">  
     
-That what a obtained with the best amplitude  
+That what I obtained with the best amplitude  
 <img src="./img_treated.png">  
   
 We could applied a filter on the image to reduce the nose.  
