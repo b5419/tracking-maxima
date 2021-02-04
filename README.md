@@ -14,7 +14,7 @@ I show you an exemple of what we can expect.
 
 I took an ARPES image 
 [Original image ](https://github.com/b5419/tracking-maxima/blob/main/original_img.png)
-<img src="./tracking-maxima/blob/main/original_img.png">
+<img src="./original_img.png">
 That what a obtained with the best amplitude
 [Image_treated](https://github.com/b5419/tracking-maxima/blob/main/img_treated.png)
 
