@@ -12,5 +12,6 @@ Keep in mind, we use different formula if the image has equivalent or inequivale
 
 I show you an exemple of what we can expect.
 
-I took a ARPES image
+I took an ARPES image
+[My image](username.github.com/repository/img/image.jpg)
 
