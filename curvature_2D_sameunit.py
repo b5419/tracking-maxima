@@ -2,16 +2,12 @@
 import numpy as np
 
 
-
-
-
 def curv_2D(data,a0,amplitude):
     [Dy, Dx] = np.gradient(data)
     [DyDx, D2x] = np.gradient(Dx)
     [D2y, DxDy] = np.gradient(Dy)
 
     C0 = a0*np.abs(np.max(Dx))**2
-
 
     C=[[] for i in range(len(Dx))]
     for k in range(len(Dx)):

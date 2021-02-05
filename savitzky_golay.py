@@ -2,10 +2,9 @@ import numpy as np
 import scipy
 
 
-#!python numbers=enable
 def sgolay2d ( z, window_size, order, derivative=None):
-    """
-    """
+    """ filter savitzky-golay for 2D data """
+
     # number of terms in the polynomial expression
     n_terms = ( order + 1 ) * ( order + 2)  / 2.0
 

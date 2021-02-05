@@ -1,14 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from pylab import imshow
-from PIL import Image
-
-
-import scipy.signal
-
-
-import sys
-sys.path.append('../')
 
 
 import curvature_1D as c1D
@@ -20,16 +12,7 @@ import savitzky_golay as sg
 
 fichier_image="gr83.txt"
 data = np.loadtxt(fichier_image)
-
-num_line = len(data)
-num_column = len(data[1])
-
-EDC=-1.4    #colonne
-MDC=0  #ligne
-
-
 data=data[::-1]
-ligne_original, colonne_original = data.shape
 
 amplitude = 2.5e-5
 
@@ -38,7 +21,6 @@ imshow(data, aspect="auto")
 plt.title("Original image")
 plt.xlabel("X")
 plt.ylabel("Y")
-#plt.close()
 
 data2 = c2D_in.curv_2D(data, amplitude)
 plt.figure(2)
