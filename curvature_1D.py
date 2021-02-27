@@ -22,7 +22,7 @@ def curv_1D_line(ydata,a0,amplitude):
 
 
 def curv_1D_img(data, a0,amplitude):
-    """input tableau output tableau"""
+    """input array output array"""
 
     num_line = len(data)
     num_column = len(data[1])
